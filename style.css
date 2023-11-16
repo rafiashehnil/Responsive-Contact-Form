@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  .contact{
+    position: relative;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 100px;
+    display: flex;
+    flex-direction: column;
+    background-color: #D0A2F7;
+  }
+  .contact .content{
+   max-width:  800px; 
+   text-align: center;
+  }
+  .contact .content h2{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    color:white;
+  }
+  .contact .content p{
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: center;
+    color:white;
+  }
+  .contact .content span{
+    color: #7743DB;
+  }
+  .container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    background-color: #D0BFFF;
+   
+
+  }
+
+.container .contact-info{
+    width: 50%;
+    display: flex;
+    min-height: 500px;
+    flex-direction: column;
+    background-color:#D0BFFF;
+    height: 100%;
+}
+.container .contact-form{
+    position: relative;
+    width: 50%;
+    background: whitesmoke;
+    min-height: 500px;
+    padding: 60px;
+    height: 100%;
+  
+
+}
+.container .contact-form h2{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.container .contact-form .input-box{
+  position: relative;
+  width: 100%;
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+
+}
+.container .contact-form .input-box input{
+  width: 100%;
+  padding: 5px 0;
+  font-size: 1.1rem;
+  margin: 10px 0;
+  border: none;
+  border-bottom: 2px solid black;
+  outline:none;
+ 
+
+
+}
+.container .contact-form .input-box input[type="submit"]{
+  width: 100px;
+  background-color:#7743DB;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  transition: 0.7s;
+
+}
+.container .contact-form .input-box input[type="submit"]:hover{
+  background-color:#D0A2F7;
+
+}
+
+.container .contact-form span{
+   font-size: 1.1rem;
+   font-weight: 400;
+   
+
+
+}
+.container .contact-form .input-box textarea {
+  height: 150px;
+  width: 100%;
+  cursor: text;
+  
+}
+.container .contact-info .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  width: 80%; 
+  margin: 0 auto;
+ 
+
+  
+
+}
+.container .contact-info .box .icon{
+  max-width: 60px;
+  height: 60px;
+  background-color:#7743DB;
+  color: white;
+  display: flex;
+  font-size: 1.75rem;
+  margin-right: 8px;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+
+}
+.container .contact-info .box .icon:hover{
+  background:#D0A2F7;
+  
+
+}
+.container .contact-info .box .text h3{
+  font-size: 500;
+  color:#7743DB;
+  
+}
+
+.container .contact-info .box  p{
+  font-size: 300;
+  color:white;
+  
+}
+@media (max-width:991px){
+  .contact{
+    padding: 50px; 
+    
+  }
+ .container{
+  flex-direction: column;
+ }
+
+.container .contact-info{
+  width: 100%;
+
+}
+.container .contact-form{
+  padding: 50px 30px;
+  width: 100%;
+
+}
+}
+@media (max-width:100px){
+  .container .contact-form{
+    width: 100%;
+  }
+}
